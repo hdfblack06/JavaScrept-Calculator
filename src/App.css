@@ -1,0 +1,61 @@
+#container{
+    width: 300px;
+    height: 400px;
+    background-color: #444444;
+    outline: #444444 solid;
+    position: absolute;
+}
+.screen{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #171717;
+    outline: 1px #444444 solid;
+    padding: 5px;
+    height: 30px;
+    color: #EDEDED;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+}
+
+#display{
+    height: 45px;
+    font-size:x-large;
+}
+.ButtonsDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    height: 65px;
+    width: 75px;
+    font-size: larger;
+    cursor: pointer;
+    background-color: #B9B4C7;
+    border: 0.5px #444444 solid;
+    font-weight: bolder;
+}
+.btn:active{
+    border: none;
+    background-color: #FAF0E6 ;
+    transform: translateY(1px);
+    font-size: large;
+    
+}
+#clear{
+    background-color: #DA0037;
+    color: #EDEDED;
+    width: 100px;
+    flex-grow: 1;
+}
+#deleteLeft{
+    background-color: #9E9FA5;
+}
+#divide, #subtract, #add, #multiply{
+    background-color: #5C5470;
+    color: #EDEDED;
+}
+#equals{
+    flex-grow: 1;
+}
+
